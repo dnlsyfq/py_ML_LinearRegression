@@ -15,8 +15,19 @@ but it allows us the ability to explain and predict variables that have a linear
 * The goal is to get the “best” m and b for our data.
 
 
+### Loss 
+When assign a slope and intercept to fit a set of points, we have to define what the best fit is.
+For each data point, we calculate loss, a number that measures how bad the model’s (in this case, the line’s) prediction was.
 
+loss as the squared distance from the point to the line. We do the squared distance (instead of just the distance) so that points above and below the line both contribute to total loss in the same way
 
+<img src="img/points.svg">
+
+squared_distanceA = 9
+squared_distanceB = 1
+total_squared_distance = 10
+
+Total loss is 10 , if found a line that had less loss than 10, that line would be a better model
 
 ---
 
