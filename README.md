@@ -5,6 +5,9 @@ Line is a rough approximation
 but it allows us the ability to explain and predict variables that have a linear relationship with each other.
 
 <center><img src="https://render.githubusercontent.com/render/math?math=y=mx%2bc"></center>
+
+**or**
+
 <center><img src="https://render.githubusercontent.com/render/math?math=\hat{y}=b_1x%2bb_0"></center>
 
 * m : The slope is a measure of how steep the line is, while the intercept is a measure of where the line hits the y-axis.
